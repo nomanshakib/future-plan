@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.Hero-section-container{
+    background-image: url(./images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    width: 35%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 8rem;
+}
+.hero-text > h1{
+    font-size: 3.7rem;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+}
+.hero-text > p{
+    font-size: 0.90rem;
+    margin-top: 20px;
+    line-height: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+.hero-btn{
+    height: 55px;
+    width: 140px;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+    margin-top: 27px;
+}
+.hero-btn> a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    word-spacing: 0.2rem;
+    font-family: 'Work Sans', sans-serif;
+}
+.failures-section-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 75px;
+}
+.failures-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.failures-description > h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 20px;
+}
+.failures-description > p {
+    font-size: 0.90rem;
+    margin-top: 20px;
+    line-height: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 10px;
+}
+.plan-section-container{
+    margin-top: 130px;
+    margin-bottom: 120px;
+}
+.icon-and-title-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 120px 0px 120px;
+}
+.plan-section-container > h1{
+    display: flex;
+    justify-content: center;
+    font-size: 2.3rem;
+    margin-bottom: 60px;
+}
+.icon-and-title{
+    text-align: center;
+}
+.icon-img img{
+    height: 80px;
+    /* width: 50px; */
+}
+.icon-title > h1{
+    font-size: 1.7rem;
+    font-family: 'Work Sans', sans-serif;
+    margin: 10px 0px 10px 0px;
+}
+.icon-title > p{
+    font-size: 1.4rem;
+    color: grey;
+    font-weight: 500;
+}
+.call-now-section-container{
+    background-image: url(./images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 265px;
+    width: 75%;
+    border-radius: 10px;
+    margin: auto;
+    margin-bottom: 120px;
+    display: flex;
+}
+.gradiant-img img{
+    height: 265px;
+    width: 75%;
+    position: absolute;
+}
+.call-button-and-text{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    
+}
+.call-button-and-text > h1{
+    color: white;
+    font-size: 2.2rem;
+    width: 90%;
+    margin-bottom: 20px;
+}
+.call-btn{
+    height: 56px;
+    width: 141px;
+    border: none;
+    border-radius: 5px;
+    color: #e95216;
+    font-size: 1.1rem;
+    font-weight: 630;
+    font-family: 'Work Sans', sans-serif;
+}
+.footer-section-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 80vh;
+}
+.footer-description > h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.footer-description p{
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+.footer-long-text{
+    margin-bottom: 20px;
+}
+.foot-phone{
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+.footer-icon{
+    display: flex;
+    gap: 10px;
+}
+.footer-icon img{
+    width: 40px;
+}
+.subscribe-area > h6 {
+    font-size: 1.3rem;
+    font-weight: 540;
+    margin-bottom: 30px;
+}
+.sub-fill{
+    height: 55px;
+    width: 300px;
+    font-size: 1rem;
+    border: 1px solid white;
+    background-color: black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 350;
+}
+::placeholder{
+    padding: 20px;
+    color: white;
+}
+.sub-btn{
+    height: 56px;
+    width: 141px;
+    border: none;
+    border-radius: 5px;
+    color: #e95216;
+    font-size: 1.1rem;
+    font-weight: 630;
+    font-family: 'Work Sans', sans-serif;
+}
+.subscribe-area{
+    margin-top: -75px;
+}
